@@ -1,0 +1,818 @@
+{
+  "CarChoices": [],
+  "EmbeddedJavascript": null,
+  "GlobalBrightness": 100.0,
+  "GlobalBrightnessPreset": {
+    "CurrentMode": 0,
+    "Brightness": 100.0,
+    "BrightnessSettings": {}
+  },
+  "LedContainers": [
+    {
+      "LedContainers": [
+        {
+          "Brightness": 10,
+          "LedContainers": [
+            {
+              "RpmMode": 1,
+              "OverrideMaxRPMWithRedlineValue": false,
+              "PercentMin": 90.0,
+              "PercentMax": 99.5,
+              "RPMMin": 7797.0,
+              "RPMMax": 8958.0,
+              "BlinkDelay": 250,
+              "StartColor": "Lime",
+              "EndColor": "Red",
+              "LedCount": 10,
+              "BlinkEnabled": false,
+              "BlinkOnLastGear": false,
+              "UseLedDimming": true,
+              "RelativeToRedline": false,
+              "StartPosition": 4,
+              "ContainerType": "RPM"
+            }
+          ],
+          "ContainerType": "Groups.BrightnessGroup",
+          "Description": "Change brightness copy"
+        },
+        {
+          "BlinkDelay": 125,
+          "Segments": [
+            "10;99.5;#0000FF;1;#0000FF"
+          ],
+          "SegmentsCount": 1,
+          "BlinkEnabled": false,
+          "RpmMode": 1,
+          "RelativeToRedline": true,
+          "BlinkOnLastGear": false,
+          "StartPosition": 4,
+          "ContainerType": "RPMSegments",
+          "Description": "Show leds solid effect segments based on car RPMs copy"
+        }
+      ],
+      "ContainerType": "Base.Group",
+      "Description": "Generic RPM"
+    },
+    {
+      "CarModel": "Manthey Ema 2024",
+      "CarChoice": {
+        "CarId": "GT3_Manthey Ema 2024",
+        "CarModel": "Manthey Ema 2024",
+        "GameCode": "LMU",
+        "IsSet": true
+      },
+      "ClearBackgroundWhenActive": true,
+      "LedContainers": [
+        {
+          "Brightness": 10,
+          "LedContainers": [
+            {
+              "RpmMode": 2,
+              "OverrideMaxRPMWithRedlineValue": false,
+              "PercentMin": 0.0,
+              "PercentMax": 100.0,
+              "RPMMin": 7797.0,
+              "RPMMax": 8958.0,
+              "BlinkDelay": 250,
+              "StartColor": "Lime",
+              "EndColor": "Red",
+              "LedCount": 5,
+              "BlinkEnabled": false,
+              "BlinkOnLastGear": false,
+              "UseLedDimming": true,
+              "RelativeToRedline": false,
+              "StartPosition": 4,
+              "ContainerType": "RPM"
+            },
+            {
+              "RpmMode": 2,
+              "OverrideMaxRPMWithRedlineValue": false,
+              "PercentMin": 0.0,
+              "PercentMax": 100.0,
+              "RPMMin": 7797.0,
+              "RPMMax": 8958.0,
+              "BlinkDelay": 250,
+              "StartColor": "Lime",
+              "EndColor": "Red",
+              "RightToLeft": true,
+              "LedCount": 5,
+              "BlinkEnabled": false,
+              "BlinkOnLastGear": false,
+              "UseLedDimming": true,
+              "RelativeToRedline": false,
+              "StartPosition": 9,
+              "ContainerType": "RPM",
+              "Description": "Show leds gradient based on car RPMs copy"
+            }
+          ],
+          "ContainerType": "Groups.BrightnessGroup"
+        },
+        {
+          "BlinkDelay": 125,
+          "Segments": [
+            "10;9152;#0000FF;1;#0000FF"
+          ],
+          "SegmentsCount": 1,
+          "BlinkEnabled": false,
+          "RpmMode": 2,
+          "RelativeToRedline": false,
+          "BlinkOnLastGear": false,
+          "StartPosition": 4,
+          "ContainerType": "RPMSegments"
+        }
+      ],
+      "ContainerType": "Groups.GameCarModelGroup",
+      "Description": "LMGT3 Porsche"
+    },
+    {
+      "CarModel": "Manthey PureRxcing 2024",
+      "CarChoice": {
+        "CarId": "GT3_Manthey PureRxcing 2024",
+        "CarModel": "Manthey PureRxcing 2024",
+        "GameCode": "LMU",
+        "IsSet": true
+      },
+      "ClearBackgroundWhenActive": true,
+      "LedContainers": [
+        {
+          "Brightness": 10,
+          "LedContainers": [
+            {
+              "RpmMode": 2,
+              "OverrideMaxRPMWithRedlineValue": false,
+              "PercentMin": 0.0,
+              "PercentMax": 100.0,
+              "RPMMin": 7797.0,
+              "RPMMax": 8958.0,
+              "BlinkDelay": 250,
+              "StartColor": "Lime",
+              "EndColor": "Red",
+              "LedCount": 5,
+              "BlinkEnabled": false,
+              "BlinkOnLastGear": false,
+              "UseLedDimming": true,
+              "RelativeToRedline": false,
+              "StartPosition": 4,
+              "ContainerType": "RPM"
+            },
+            {
+              "RpmMode": 2,
+              "OverrideMaxRPMWithRedlineValue": false,
+              "PercentMin": 0.0,
+              "PercentMax": 100.0,
+              "RPMMin": 7797.0,
+              "RPMMax": 8958.0,
+              "BlinkDelay": 250,
+              "StartColor": "Lime",
+              "EndColor": "Red",
+              "RightToLeft": true,
+              "LedCount": 5,
+              "BlinkEnabled": false,
+              "BlinkOnLastGear": false,
+              "UseLedDimming": true,
+              "RelativeToRedline": false,
+              "StartPosition": 9,
+              "ContainerType": "RPM",
+              "Description": "Show leds gradient based on car RPMs copy"
+            }
+          ],
+          "ContainerType": "Groups.BrightnessGroup",
+          "Description": "Change brightness copy"
+        },
+        {
+          "BlinkDelay": 125,
+          "Segments": [
+            "10;9152;#0000FF;1;#0000FF"
+          ],
+          "SegmentsCount": 1,
+          "BlinkEnabled": false,
+          "RpmMode": 2,
+          "RelativeToRedline": false,
+          "BlinkOnLastGear": false,
+          "StartPosition": 4,
+          "ContainerType": "RPMSegments"
+        }
+      ],
+      "ContainerType": "Groups.GameCarModelGroup",
+      "Description": "LMGT3 Porsche"
+    },
+    {
+      "CarModel": "Team WRT 2024",
+      "CarChoice": {
+        "CarId": "Team WRT 2024",
+        "CarModel": "Team WRT 2024",
+        "GameCode": "LMU",
+        "IsSet": true
+      },
+      "ClearBackgroundWhenActive": true,
+      "LedContainers": [
+        {
+          "Brightness": 10,
+          "LedContainers": [
+            {
+              "BlinkDelay": 125,
+              "Segments": [
+                "1;6108;#00FF00;0;",
+                "1;6323;#00FF00;0;",
+                "1;6536;#FFFF00;0;",
+                "1;6750;#FFFF00;0;",
+                "1;6965;#FF0000;0;",
+                "1;6965;#FF0000;0;",
+                "1;6750;#FFFF00;0;",
+                "1;6536;#FFFF00;0;",
+                "1;6323;#00FF00;0;",
+                "1;6108;#00FF00;0;"
+              ],
+              "SegmentsCount": 10,
+              "BlinkEnabled": false,
+              "RpmMode": 2,
+              "RelativeToRedline": false,
+              "BlinkOnLastGear": false,
+              "StartPosition": 4,
+              "ContainerType": "RPMSegments"
+            }
+          ],
+          "ContainerType": "Groups.BrightnessGroup",
+          "Description": "Change brightness copy"
+        },
+        {
+          "BlinkDelay": 125,
+          "Segments": [
+            "10;7179;#FF0000;1;#FF0000"
+          ],
+          "SegmentsCount": 1,
+          "BlinkEnabled": false,
+          "RpmMode": 2,
+          "RelativeToRedline": false,
+          "BlinkOnLastGear": false,
+          "StartPosition": 4,
+          "ContainerType": "RPMSegments"
+        }
+      ],
+      "ContainerType": "Groups.GameCarModelGroup",
+      "Description": "LMGT3 BMW"
+    },
+    {
+      "CarModel": "Cadillac Racing 2024",
+      "CarChoice": {
+        "CarId": "Cadillac Racing 2024",
+        "CarModel": "Cadillac Racing 2024",
+        "GameCode": "LMU",
+        "IsSet": true
+      },
+      "LedContainers": [
+        {
+          "Brightness": 10,
+          "LedContainers": [
+            {
+              "RpmMode": 2,
+              "OverrideMaxRPMWithRedlineValue": false,
+              "PercentMin": 0.0,
+              "PercentMax": 100.0,
+              "RPMMin": 7360.0,
+              "RPMMax": 8235.0,
+              "BlinkDelay": 250,
+              "StartColor": "Lime",
+              "EndColor": "Red",
+              "LedCount": 5,
+              "BlinkEnabled": false,
+              "BlinkOnLastGear": false,
+              "UseLedDimming": true,
+              "RelativeToRedline": false,
+              "StartPosition": 4,
+              "ContainerType": "RPM"
+            },
+            {
+              "RpmMode": 2,
+              "OverrideMaxRPMWithRedlineValue": false,
+              "PercentMin": 0.0,
+              "PercentMax": 100.0,
+              "RPMMin": 7360.0,
+              "RPMMax": 8235.0,
+              "BlinkDelay": 250,
+              "StartColor": "Lime",
+              "EndColor": "Red",
+              "RightToLeft": true,
+              "LedCount": 5,
+              "BlinkEnabled": false,
+              "BlinkOnLastGear": false,
+              "UseLedDimming": true,
+              "RelativeToRedline": false,
+              "StartPosition": 9,
+              "ContainerType": "RPM",
+              "Description": "Show leds gradient based on car RPMs copy"
+            }
+          ],
+          "ContainerType": "Groups.BrightnessGroup",
+          "Description": "Change brightness copy"
+        },
+        {
+          "BlinkDelay": 125,
+          "Segments": [
+            "10;8670;#0000FF;1;#0000FF"
+          ],
+          "SegmentsCount": 1,
+          "BlinkEnabled": false,
+          "RpmMode": 2,
+          "RelativeToRedline": false,
+          "BlinkOnLastGear": false,
+          "StartPosition": 4,
+          "ContainerType": "RPMSegments"
+        }
+      ],
+      "ContainerType": "Groups.GameCarModelGroup",
+      "Description": "HYPER Cadillac"
+    },
+    {
+      "TriggerFormula": {
+        "Expression": "[CarClass] = 'LMP2'"
+      },
+      "ClearBackgroundWhenActive": true,
+      "LedContainers": [
+        {
+          "Brightness": 10,
+          "LedContainers": [
+            {
+              "BlinkDelay": 125,
+              "Segments": [
+                "1;6676;#00FF00;1;Blue",
+                "1;6800;#00FF00;1;Blue",
+                "1;6925;#00FF00;1;Blue",
+                "1;7050;#00FF00;1;Blue",
+                "1;7174;#00FF00;1;Blue",
+                "1;7300;#00FF00;1;Blue",
+                "1;7424;#FFFF00;1;Blue",
+                "1;7549;#FFFF00;1;Blue",
+                "1;7674;Blue;1;Blue",
+                "1;7798;Blue;1;Blue"
+              ],
+              "SegmentsCount": 10,
+              "BlinkEnabled": false,
+              "RpmMode": 2,
+              "RelativeToRedline": false,
+              "BlinkOnLastGear": false,
+              "StartPosition": 4,
+              "ContainerType": "RPMSegments"
+            }
+          ],
+          "ContainerType": "Groups.BrightnessGroup",
+          "Description": "Change brightness copy"
+        },
+        {
+          "BlinkDelay": 125,
+          "Segments": [
+            "10;7923;#0000FF;1;#0000FF"
+          ],
+          "SegmentsCount": 1,
+          "BlinkEnabled": false,
+          "RpmMode": 2,
+          "RelativeToRedline": false,
+          "BlinkOnLastGear": false,
+          "StartPosition": 4,
+          "ContainerType": "RPMSegments",
+          "Description": "Show leds solid effect segments based on car RPMs copy"
+        }
+      ],
+      "ContainerType": "Groups.CustomConditionalGroup",
+      "Description": "ALL LMP2 Cars"
+    },
+    {
+      "TriggerFormula": {
+        "Expression": "[CarId] == 'GT3_United Autosports 2024' or \r\n[CarId] == 'Inception Racing 2024'"
+      },
+      "ClearBackgroundWhenActive": true,
+      "LedContainers": [
+        {
+          "Brightness": 10,
+          "LedContainers": [
+            {
+              "BlinkDelay": 125,
+              "Segments": [
+                "2;6550;#00FF00;0;",
+                "2;6750;#FFFF00;0;",
+                "2;6950;#FFFF00;0;",
+                "2;7150;#FF0000;0;",
+                "2;7350;Blue;0;"
+              ],
+              "SegmentsCount": 5,
+              "BlinkEnabled": false,
+              "RpmMode": 2,
+              "RelativeToRedline": false,
+              "BlinkOnLastGear": false,
+              "StartPosition": 4,
+              "ContainerType": "RPMSegments"
+            }
+          ],
+          "ContainerType": "Groups.BrightnessGroup"
+        },
+        {
+          "BlinkDelay": 125,
+          "Segments": [
+            "10;7450;#0000FF;0;"
+          ],
+          "SegmentsCount": 1,
+          "BlinkEnabled": false,
+          "RpmMode": 2,
+          "RelativeToRedline": false,
+          "BlinkOnLastGear": false,
+          "StartPosition": 4,
+          "ContainerType": "RPMSegments"
+        },
+        {
+          "BlinkDelay": 125,
+          "Segments": [
+            "8;7550;#FF0000;0;",
+            "2;7550;#0000FF;0;"
+          ],
+          "SegmentsCount": 2,
+          "BlinkEnabled": false,
+          "RpmMode": 2,
+          "RelativeToRedline": false,
+          "BlinkOnLastGear": false,
+          "StartPosition": 4,
+          "ContainerType": "RPMSegments"
+        }
+      ],
+      "ContainerType": "Groups.CustomConditionalGroup",
+      "Description": "LMGT3 Mclaren"
+    },
+    {
+      "TriggerFormula": {
+        "Expression": "[CarId] == 'GT3_Proton Racing 2024' or\r\n[CarId] == 'GT3_Proton Racing 2024'"
+      },
+      "ClearBackgroundWhenActive": true,
+      "LedContainers": [
+        {
+          "Brightness": 100,
+          "LedContainers": [
+            {
+              "BlinkDelay": 125,
+              "Segments": [
+                "1;6890;#00FF00;0;",
+                "1;7070;#00FF00;0;",
+                "1;7250;#00FF00;0;",
+                "1;7430;#00FF00;0;",
+                "1;7610;Blue;0;",
+                "1;7610;Blue;0;",
+                "1;7430;#00FF00;0;",
+                "1;7250;#00FF00;0;",
+                "1;7070;#00FF00;0;",
+                "1;6890;#00FF00;0;"
+              ],
+              "SegmentsCount": 10,
+              "BlinkEnabled": false,
+              "RpmMode": 2,
+              "RelativeToRedline": false,
+              "BlinkOnLastGear": false,
+              "StartPosition": 4,
+              "ContainerType": "RPMSegments"
+            }
+          ],
+          "ContainerType": "Groups.BrightnessGroup"
+        },
+        {
+          "BlinkDelay": 125,
+          "Segments": [
+            "10;7610;#0000FF;0;"
+          ],
+          "SegmentsCount": 1,
+          "BlinkEnabled": false,
+          "RpmMode": 2,
+          "RelativeToRedline": false,
+          "BlinkOnLastGear": false,
+          "StartPosition": 4,
+          "ContainerType": "RPMSegments",
+          "Description": "Show leds solid effect segments based on car RPMs copy"
+        }
+      ],
+      "ContainerType": "Groups.CustomConditionalGroup",
+      "Description": "LMGT3 Ford"
+    },
+    {
+      "TriggerFormula": {
+        "Expression": "[CarId] == 'Vista AF Corse 2024' or\r\n[CarId] == 'JMW Motorsport 2024 2024' or\r\n[CarId] == 'GR Racing 2024' or\r\n[CarId] == 'Spirit of Race 2024'"
+      },
+      "ClearBackgroundWhenActive": true,
+      "LedContainers": [
+        {
+          "Brightness": 10,
+          "LedContainers": [
+            {
+              "BlinkDelay": 125,
+              "Segments": [
+                "1;6625;#00FF00;0;",
+                "1;6875;#00FF00;0;",
+                "1;7125;#FFFF00;0;",
+                "1;7375;#FFFF00;0;",
+                "1;7625;#FF0000;0;"
+              ],
+              "SegmentsCount": 5,
+              "BlinkEnabled": false,
+              "RpmMode": 2,
+              "RelativeToRedline": false,
+              "BlinkOnLastGear": false,
+              "StartPosition": 6,
+              "ContainerType": "RPMSegments"
+            }
+          ],
+          "ContainerType": "Groups.BrightnessGroup"
+        },
+        {
+          "BlinkDelay": 125,
+          "Segments": [
+            "6;7875;#FF0000;1;Blue",
+            "5;90;#000000;1;Blue"
+          ],
+          "SegmentsCount": 2,
+          "BlinkEnabled": false,
+          "RpmMode": 2,
+          "RelativeToRedline": false,
+          "BlinkOnLastGear": false,
+          "StartPosition": 6,
+          "ContainerType": "RPMSegments"
+        }
+      ],
+      "ContainerType": "Groups.CustomConditionalGroup",
+      "Description": "LMGT3 Ferrari"
+    },
+    {
+      "TriggerFormula": {
+        "Expression": "[CarId] == 'GT3_TF Sport'"
+      },
+      "ClearBackgroundWhenActive": true,
+      "LedContainers": [
+        {
+          "Brightness": 10,
+          "LedContainers": [
+            {
+              "BlinkDelay": 125,
+              "Segments": [
+                "1;6688;#00FF00;0;",
+                "1;6813;#00FF00;1;Blue",
+                "1;6938;#00FF00;0;",
+                "1;7063;#00FF00;0;",
+                "1;7188;#00FF00;1;Blue",
+                "1;7313;#00FF00;0;",
+                "1;7438;#FFFF00;0;",
+                "1;7563;#FFFF00;0;",
+                "5;90;#000000;1;Blue"
+              ],
+              "SegmentsCount": 9,
+              "BlinkEnabled": false,
+              "RpmMode": 2,
+              "RelativeToRedline": false,
+              "BlinkOnLastGear": false,
+              "StartPosition": 5,
+              "ContainerType": "RPMSegments"
+            }
+          ],
+          "ContainerType": "Groups.BrightnessGroup"
+        },
+        {
+          "BlinkDelay": 125,
+          "Segments": [
+            "8;7813;#FF0000;0;"
+          ],
+          "SegmentsCount": 1,
+          "BlinkEnabled": false,
+          "RpmMode": 2,
+          "RelativeToRedline": false,
+          "BlinkOnLastGear": false,
+          "StartPosition": 5,
+          "ContainerType": "RPMSegments"
+        }
+      ],
+      "ContainerType": "Groups.CustomConditionalGroup",
+      "Description": "LMGT3 Corvette"
+    },
+    {
+      "TriggerFormula": {
+        "Expression": "[CarId] == 'GT3_D\\'Station Racing 2024' or\r\n[CarId] == 'GT3_Heart of Racing Team 2024'"
+      },
+      "ClearBackgroundWhenActive": true,
+      "LedContainers": [
+        {
+          "Brightness": 10,
+          "LedContainers": [
+            {
+              "BlinkDelay": 125,
+              "Segments": [
+                "1;6262;#00FF00;0;",
+                "3;6512;#00FF00;1;Blue",
+                "2;6762;#FFFF00;0;",
+                "5;90;#000000;1;Blue"
+              ],
+              "SegmentsCount": 4,
+              "BlinkEnabled": false,
+              "RpmMode": 2,
+              "RelativeToRedline": false,
+              "BlinkOnLastGear": false,
+              "StartPosition": 5,
+              "ContainerType": "RPMSegments"
+            }
+          ],
+          "ContainerType": "Groups.BrightnessGroup"
+        },
+        {
+          "BlinkDelay": 125,
+          "Segments": [
+            "8;7012;#0000FF;0;"
+          ],
+          "SegmentsCount": 1,
+          "BlinkEnabled": false,
+          "RpmMode": 2,
+          "RelativeToRedline": false,
+          "BlinkOnLastGear": false,
+          "StartPosition": 5,
+          "ContainerType": "RPMSegments"
+        },
+        {
+          "BlinkDelay": 125,
+          "Segments": [
+            "8;7138;#FF0000;0;"
+          ],
+          "SegmentsCount": 1,
+          "BlinkEnabled": false,
+          "RpmMode": 2,
+          "RelativeToRedline": false,
+          "BlinkOnLastGear": false,
+          "StartPosition": 5,
+          "ContainerType": "RPMSegments",
+          "Description": "Show leds solid effect segments based on car RPMs copy"
+        }
+      ],
+      "ContainerType": "Groups.CustomConditionalGroup",
+      "Description": "LMGT3 Aston"
+    },
+    {
+      "LedContainers": [
+        {
+          "TriggerFormula": {
+            "Expression": "[EngineStarted]"
+          },
+          "LedContainers": [
+            {
+              "LedContainers": [
+                {
+                  "Brightness": 100,
+                  "LedContainers": [
+                    {
+                      "StartColor": "255, 90, 0",
+                      "EndColor": "Red",
+                      "MaximumValue": 100.0,
+                      "MinimumValue": 0.0,
+                      "BlinkFormula": {
+                        "Expression": ""
+                      },
+                      "EnabledFormula": {
+                        "Expression": ""
+                      },
+                      "ValueFormula": {
+                        "Expression": "[Brake]"
+                      },
+                      "LedCount": 3,
+                      "GradientOnAll": true,
+                      "ClearWhenOut": false,
+                      "UseLedDimming": true,
+                      "BlinkDelay": 500,
+                      "BlinkEnabled": false,
+                      "ContainerType": "CustomGradient"
+                    },
+                    {
+                      "StartColor": "255, 90, 0",
+                      "EndColor": "Red",
+                      "MaximumValue": 100.0,
+                      "MinimumValue": 0.0,
+                      "BlinkFormula": {
+                        "Expression": ""
+                      },
+                      "EnabledFormula": {
+                        "Expression": ""
+                      },
+                      "ValueFormula": {
+                        "Expression": "[Brake]"
+                      },
+                      "LedCount": 3,
+                      "RightToLeft": true,
+                      "GradientOnAll": true,
+                      "ClearWhenOut": false,
+                      "UseLedDimming": true,
+                      "BlinkDelay": 500,
+                      "BlinkEnabled": false,
+                      "StartPosition": 14,
+                      "ContainerType": "CustomGradient",
+                      "Description": "Show gradient based on formulas copy"
+                    }
+                  ],
+                  "ContainerType": "Groups.BrightnessGroup"
+                }
+              ],
+              "ContainerType": "Groups.BrakeGroup"
+            },
+            {
+              "IdleColor": "Transparent",
+              "IdleBlinkingColor": "Transparent",
+              "EnableIdleBlinking": false,
+              "LedCount": 3,
+              "Color": "Yellow",
+              "BlinkingColor": "Transparent",
+              "BlinkEnabled": false,
+              "ContainerType": "Status.TCActive"
+            },
+            {
+              "IdleColor": "Transparent",
+              "IdleBlinkingColor": "Transparent",
+              "EnableIdleBlinking": false,
+              "LedCount": 3,
+              "Color": "Yellow",
+              "BlinkingColor": "Transparent",
+              "BlinkEnabled": false,
+              "StartPosition": 14,
+              "ContainerType": "Status.TCActive"
+            },
+            {
+              "IdleColor": "Transparent",
+              "IdleBlinkingColor": "Transparent",
+              "EnableIdleBlinking": false,
+              "LedCount": 4,
+              "Color": "Magenta",
+              "BlinkingColor": "Transparent",
+              "BlinkEnabled": false,
+              "ContainerType": "Status.AbsActive"
+            },
+            {
+              "IdleColor": "Transparent",
+              "IdleBlinkingColor": "Transparent",
+              "EnableIdleBlinking": false,
+              "LedCount": 4,
+              "Color": "Magenta",
+              "BlinkingColor": "Transparent",
+              "BlinkEnabled": false,
+              "StartPosition": 13,
+              "ContainerType": "Status.AbsActive",
+              "Description": "Generates a static effect when the ABS is currently active copy"
+            }
+          ],
+          "ContainerType": "Groups.CustomConditionalGroup"
+        }
+      ],
+      "ContainerType": "Base.Group",
+      "Description": "TC/ABS"
+    }
+  ],
+  "TestLedsGameData": {
+    "CarModel": "D'Station Racing 2024",
+    "CarId": "GT3_D'Station Racing 2024",
+    "CarChoice": {
+      "CarId": "GT3_D'Station Racing 2024",
+      "CarModel": "D'Station Racing 2024",
+      "GameCode": "LMU",
+      "IsSet": true
+    },
+    "GearEx": 12,
+    "FuelMax": 100.0,
+    "RPMSMax": 10000.0,
+    "TurboMax": 3.5,
+    "TurnIndicatorLeftEnabled": false,
+    "TurnIndicatorRightEnabled": false,
+    "SessionBestDeltaEx": 0.0,
+    "AllTimeBestDeltaEx": 0.0,
+    "DRSEnabled": false,
+    "DRSAvailable": false,
+    "MaxRpm": 10000.0,
+    "GameRunning": true,
+    "Brake": 0.0,
+    "GameName": "LMU",
+    "Fuel": 0.0,
+    "RPMPercent": 46.598639455782312,
+    "RPMRedlineReached": false,
+    "SpeedKmh": 0.0,
+    "SpeedMph": 0.0,
+    "Turbo": 0.0,
+    "TurboPercent": 0.0,
+    "Gear": "12",
+    "IsInPitLane": false,
+    "PitLimiterOn": false,
+    "AbsEnabled": false,
+    "AbsActive": false,
+    "TCEnabled": false,
+    "TCActive": false,
+    "LowFuelAlert": false,
+    "SpotterCarLeft": false,
+    "SpotterCarRight": false,
+    "BlackFlag": false,
+    "YellowFlag": false,
+    "WhiteFlag": false,
+    "BlueFlag": false,
+    "GreenFlag": false,
+    "CarStartedTime": "2025-03-05T21:32:33.1633884-05:00",
+    "SessionBestDelta": 0.0,
+    "AllTimeBestDelta": 0.0
+  },
+  "UseProfileBrightness": true,
+  "LastLoaded": "0001-01-01T00:00:00",
+  "Name": "Le Mans Ultimate",
+  "ProfileId": "a89d3a0c-0a58-4171-91c0-ba3a6a16b22e",
+  "GameCode": "LMU",
+  "CarChoice": null
+}
